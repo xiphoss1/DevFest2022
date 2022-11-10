@@ -1205,7 +1205,7 @@ ol {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #3813c2;
+  background: #3270eb;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1232,7 +1232,7 @@ ol {
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
-  background-color: #F20487;
+  background-color: #1a1d1c;
 }
 
 /* Overlay */
@@ -1334,7 +1334,7 @@ ol {
   font-size: 15px;
   font-weight: 500;
   padding: 15px 30px;
-  background-color: #3813c2;
+  background-color: #3270eb;
   color: #fff;
   border: none;
   -webkit-transition: all 0.3s ease;
@@ -1346,6 +1346,11 @@ ol {
   overflow: hidden;
   -webkit-box-shadow: 0px 4px 7px #00000021;
           box-shadow: 0px 4px 7px #00000021;
+}
+
+.button:hover .btn:hover {
+  color: #1a1d1c;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1453,7 +1458,7 @@ ol {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background: linear-gradient(45deg, #3813c2, #F20487);
+  background: #3270eb;
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -1762,6 +1767,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 0px 0;
+  background-color: #1a1d1c;
 }
 
 .navbar {
@@ -2221,12 +2227,12 @@ ol {
 }
 
 .hero-area .hero-content .button .btn {
-  /*background-color: #F20487;*/
+  background-color: #3270eb;
   color: #fff;
 }
 
 .hero-area .hero-content .button .btn:hover {
-  color: #F20487;
+  color: #1a1d1c;
   background-color: #fff;
 }
 
@@ -2273,7 +2279,7 @@ ol {
 
 .count-down .box-content {
   text-align: center;
-  background-color: #3813c2;
+  background-color: #3270eb;
   background-image: url("../images/count-down/bg.png");
   background-size: cover;
   background-position: center;
@@ -2509,7 +2515,7 @@ ol {
   line-height: 65px;
   border-radius: 8px;
   color: #fff;
-  background-color: #3813c2;
+  background-color: #3270eb;
   text-align: center;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -2525,9 +2531,9 @@ ol {
 }
 
 .single-featuer:hover .service-icon {
-  background-color: #F20487;
-  -webkit-box-shadow: 0px 10px 30px #f204873d;
-          box-shadow: 0px 10px 30px #f204873d;
+  background-color: #1a1d1c;
+  -webkit-box-shadow: 0px 10px 30px #1a1d1c;
+          box-shadow: 0px 10px 30px #1a1d1c;
 }
 
 .single-featuer h3 {
