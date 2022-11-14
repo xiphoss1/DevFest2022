@@ -3327,3 +3327,48 @@ ol {
     height: 400px;
   }
 }
+
+/*=============================
+	Sponsors CSS
+===============================*/
+.sponsors {
+  text-align: center;
+}
+
+.sponsors .section-title {
+  margin-bottom: 70px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sponsors .section-title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sponsors .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+.sponsors .single-sponsor {
+  padding: 20px 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.103);
+          box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.103);
+  border: 1px solid #eee;
+  margin: 12px 10px;
+  line-height: 50px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: #fff;
+}
+
+.sponsors .single-sponsor:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sponsors .single-sponsor img {
+  width: 150px;
+}
