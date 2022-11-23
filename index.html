@@ -87,10 +87,10 @@
                                 <a href="https://www.entrio.hr/event/devfest-2022-12565" target="_blank" class="btn"><i class="fa fa-ticket"></i> Get Ticket</a>
                             </div>
                             <div class="button wow fadeInUp" data-wow-delay=".8s">
-                                <a href="https://gdg.community.dev/events/details/google-gdg-zagreb-presents-devfest-2022/" target="_blank" class="btn "><i class="fa fa-calendar-o"></i>View Agenda</a>
+                                <a class="btn glightbox"><i class="fa fa-calendar-o"></i>View Agenda</a>
                             </div>
                             <div class="button wow fadeInUp" data-wow-delay=".8s">
-                                <a href="https://developers.google.com/community/devfest" target="_blank" class="btn "><i class="fa fa-television"></i>About DevFest</a>
+                                <a href="https://developers.google.com/community/devfest" target="_blank" class="btn"><i class="fa fa-television"></i>About DevFest</a>
                             </div>
                         </div> 
                     </div>
@@ -153,7 +153,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
+
+                    <a href="https://getstream.io" target="_blank" class="single-sponsor">
+                        <img src="assets/images/sponsors/stream.png" alt="getstream">
+                    </a>
 
                     <a href="https://friendlyfireesports.com" target="_blank" class="single-sponsor">
                         <img src="assets/images/sponsors/ff.svg" alt="friendlyfireesports">
@@ -181,6 +185,10 @@
 
                     <a href="https://www.soulie.io" target="_blank" class="single-sponsor">
                         <img src="assets/images/sponsors/soulie.svg" alt="soulie">
+                    </a>
+
+                    <a href="https://www.neushape.co" target="_blank" class="single-sponsor">
+                        <img src="assets/images/sponsors/neushape.svg" alt="neushape">
                     </a>
 
                 </div>
@@ -285,6 +293,12 @@
     <script src="assets/js/glightbox.min.js"></script>
     <script src="assets/js/count-up.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+        GLightbox({
+            'href': 'assets/images/hero/agenda.jpg',
+            'type': 'image'
+        });
+    </script>
     <script>
         const finaleDate = new Date("December 08, 2022 08:00:00").getTime();
 
